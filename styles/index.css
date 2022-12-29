@@ -15,7 +15,6 @@
 }
 
 .hero-container {
-  /* background-image: url("/assets/index/hero/model.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +32,7 @@
   }
 
   40% {
-    background-image: url("./assets/home/nail-polish-bottles.jpg");
+    background-image: url("./assets/home/hero-nail-polish-bottles.jpg");
   }
 
   70% {
