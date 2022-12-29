@@ -1,0 +1,247 @@
+/* FLIPPING THE IMAGE */
+.carousel-inner {
+  transform: scaleX(-1);
+}
+
+.about-main {
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.welcome-to {
+  font-size: 5.5rem;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 14rem;
+  height: 0px;
+}
+
+.name {
+  font-size: 4.4rem;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  line-height: 11rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+.letter-m {
+  font-weight: 700;
+  font-size: 12rem;
+  color: #e30c52;
+  text-shadow: 0px 2px 1px #e30c52;
+}
+
+.letter-h {
+  font-weight: 500;
+  line-height: 0;
+  font-size: 5.2rem;
+  color: #e30c52;
+}
+
+.about-content {
+  font-size: 2.1rem;
+  text-align: justify;
+  padding: 4rem 0;
+}
+
+.shop-img {
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+}
+
+.container + button {
+  margin-top: 0;
+}
+
+.button-container .button{
+  padding-bottom: 4rem;
+}
+
+.button:link,
+.button:visited {
+  background-color: #e30c52;
+  color: white;
+  border-radius: 3rem;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  color: #cc0b4a;
+  background-color: white;
+}
+
+/* iPad */
+@media only screen and (max-width: 920px) {
+    .welcome-to {
+    font-size: 4.5rem;
+  }
+  
+  .name {
+    font-size: 3.4rem;
+    padding-bottom: 2rem;
+  }
+  
+  .letter-m {
+    font-size: 8rem;
+    line-height: 10rem;
+    text-shadow: 0px 1px 1px #e30c52;
+  }
+
+  .about-content {
+    font-size: 2rem;
+  }
+}
+
+/* iPhone */
+@media only screen and (max-width: 690px) {
+  /* ABOUT PAGE */
+  .welcome-to {
+    font-size: 3.5rem;
+    padding-left: 2rem;
+  }
+  
+  .name {
+    font-size: 2.6rem;
+    padding-bottom: 1rem;
+  }
+  
+  .letter-m {
+    font-size: 8rem;
+    line-height: 6rem;
+  }
+
+  .about-content {
+    font-size: 1.8rem;
+  }
+
+  .letter-h {
+    font-size: 4.2rem;
+  }
+
+  .button:link,
+  .button:visited {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  /* ABOUT PAGE */
+  .welcome-to {
+    font-size: 3.5rem;
+    padding-left: 2rem;
+  }
+  
+  .name {
+    font-size: 2.6rem;
+    padding-bottom: 1rem;
+  }
+  
+  .letter-m {
+    font-size: 8rem;
+    line-height: 6rem;
+  }
+
+  .about-content {
+    font-size: 1.8rem;
+  }
+
+  .letter-h {
+    font-size: 4.2rem;
+  }
+
+  .button:link,
+  .button:visited {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* ABOUT PAGE */
+  .welcome-to {
+    font-size: 2.8rem;
+    padding-left: 3rem;
+    line-height: 7rem;
+    padding-top: 12rem;
+  }
+  
+  .name {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .letter-m {
+    font-size: 6rem;
+    line-height: 6rem;
+    text-shadow: 0px 1px 0px #e30c52;
+  }
+
+  .about-content {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+  }
+
+  .letter-h {
+    font-size: 3.6rem;
+  }
+
+  .button:link,
+  .button:visited {
+  font-size: 1.2rem;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+   /* ABOUT PAGE */
+   .welcome-to {
+    font-size: 2.6rem;
+    padding-left: 3rem;
+    line-height: 8rem;
+    padding-top: 11rem;
+  }
+
+  .name {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .letter-m {
+    font-size: 5rem;
+    text-shadow: 0px 1px 1px #e30c52;
+  }
+
+  .about-content {
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .letter-h {
+    font-size: 3.6rem;
+  }
+
+  .button:link,
+  .button:visited {
+    padding: 0.8rem 0.8rem;
+  }
+}

@@ -1,0 +1,96 @@
+.nail-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 55vh;
+  animation: hero-image 15s infinite alternate
+}
+
+@keyframes hero-image {  
+  from {
+    background-image: url("/assets/gallery/hero-nails.jpg");
+  }
+
+  to {
+    background-image: url("/assets/gallery/hero-nail-bottle.jpg");
+  }
+}
+
+.gallery-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  
+}
+
+.gallery h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    color: #CFB07B;
+    padding: 8rem 8rem 0 8rem;
+
+}
+
+.gallery p {
+    font-size: 2rem;
+    color: white;
+    padding: 0 5.5rem;
+    text-align: center;
+    max-width: 47rem;
+    margin: 0 auto;
+    padding-bottom: 8rem
+}
+
+.gallery-container {
+  max-width: 100rem;
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 14rem;
+
+}
+
+@media only screen and (max-width: 920px) {
+    
+  .gallery-container {
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 63rem;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .nail-bg {
+    height: 33vh;
+  }
+
+  .gallery-container {
+    max-width: 29.5rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .nail-bg {
+    height: 24vh;
+  }
+
+}
+
+@media only screen and (max-width: 340px) {
+  .nail-bg {
+    background-size: contain;
+    height: 19vh;
+  }
+
+  .gallery p {
+    padding: 0 3rem 10rem 3rem;
+  }
+
+  .gallery h1 {
+    padding-top: 0;
+
+  }
+
+}
