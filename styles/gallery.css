@@ -8,11 +8,11 @@
 
 @keyframes hero-image {  
   from {
-    background-image: url("/assets/gallery/hero-nails.jpg");
+    background-image: url("./assets/gallery/hero-nails.jpg");
   }
 
   to {
-    background-image: url("/assets/gallery/hero-nail-bottle.jpg");
+    background-image: url("./assets/gallery/hero-nail-bottle.jpg");
   }
 }
 
