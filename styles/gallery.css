@@ -1,4 +1,9 @@
+header {
+  margin-top: -10rem;
+}
+
 .nail-bg {
+  margin-top: 10rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,44 +58,97 @@
 }
 
 @media only screen and (max-width: 920px) {
-    
+  .nail-bg {
+    background-position: left;
+    height: 55vh;
+  }  
+
   .gallery-container {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 63rem;
+    padding-bottom: 12rem;;
   }
 }
 
 @media only screen and (max-width: 690px) {
+  .header-logo {
+    height: 5rem;
+  }
+
+  .toggle-button a {
+  padding-top: 2.5rem;
+  }
+
+  .container {
+    padding-top: 0.5rem;
+  }
+  
   .nail-bg {
-    height: 33vh;
+    height: 45vh;
+    background-position: center;
   }
 
   .gallery-container {
     max-width: 29.5rem;
   }
+
+  .gallery h1 {
+    font-size: 4rem;
+    padding: 6rem 8rem 0 8rem;
+  }
+
+  .gallery-container {
+    padding-bottom: 9rem;
+  }
+
 }
 
 @media only screen and (max-width: 568px) {
   .nail-bg {
-    height: 24vh;
+    height: 40vh;
+  }
+  
+  .gallery h1 {
+    font-size: 4rem;
+    padding: 6rem 8rem 0 8rem;
+  }
+
+  .gallery p {
+    padding-bottom: 7rem;
+  }
+
+  .gallery-container {
+    padding-bottom: 8rem;
   }
 
 }
 
+/* TODO: Need to check this size and below */
+
+@media only screen and (max-width: 480px) {
+  /* HERO */
+  .hero-container {
+    background-position: left;
+    height: 35vh;
+  }
+}
+
 @media only screen and (max-width: 340px) {
   .nail-bg {
-    background-size: contain;
-    height: 19vh;
+    background-size: cover;
+    height: 40vh;
+    background-position: inherit;
   }
 
   .gallery p {
-    padding: 0 3rem 10rem 3rem;
+    padding: 0 3rem 6rem 3rem;
+    font-size: 1.8rem;
   }
 
   .gallery h1 {
-    padding-top: 0;
-
+    padding-top: 5rem;
+    font-size: 3.4rem;
   }
 
 }
