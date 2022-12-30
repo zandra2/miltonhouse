@@ -83,8 +83,8 @@
 
 .button:hover,
 .button:active {
-  color: #cc0b4a;
   background-color: white;
+  color: #cc0b4a;
 }
 
 /* iPad */
