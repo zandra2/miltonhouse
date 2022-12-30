@@ -10,7 +10,7 @@
   font-size: 5rem ;
   color: #CFB07B;
   margin: 0 auto;
-  padding: 13.5rem 8rem 3.5rem 8rem;
+  padding: 15.5rem 8rem 3.5rem 8rem;
   max-width: 110rem;
 }
 
@@ -18,7 +18,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 55vh;
+  height: 70vh;
   animation: image 15s infinite alternate-reverse;
 }
 
@@ -275,7 +275,11 @@ i {
 @media only screen and (max-width: 920px) {
   /* HERO */
   .hero-container {
-    height: 40vh;
+    height: 65vh;
+  }
+
+  .hero-title h1 {
+    padding-top: 13.5rem;
   }
 
   /* SERVICE */
@@ -312,7 +316,7 @@ i {
 @media only screen and (max-width: 690px) {
   /* HERO */
   .hero-container {
-    height: 30vh;
+    height: 55vh;
   }
 
   .hero-title h1 {
@@ -356,12 +360,12 @@ i {
 @media only screen and (max-width: 480px) {
   /* HERO */
   .hero-container {
-    height: 20vh;
+    height: 49vh;
   }
 
   .hero-title h1 {
     font-size: 3.6rem;
-    padding: 14rem 2rem 4rem 2rem;
+    padding: 14rem 2rem 0rem 2rem;
 }
 
   /* SERVICES */
@@ -386,17 +390,31 @@ i {
 @media only screen and (max-width: 360px) {
   .hero-title h1 {
     font-size: 3rem;
-    padding: 13rem 2rem 4rem 2rem;
+    padding: 13rem 2rem 0rem 2rem;
+  }
+
+  .copyright {
+    font-size: 1.1rem;
   }
 }
 
 @media only screen and (max-width: 322px) {
+  .hero-title h1 {
+    padding: 14rem 2rem 0rem 2rem;
+  }
+  .hero-container {
+    height: 38vh;
+    margin-top: 5rem;
+  }
+
   .heading {
-    padding-top: 7rem
+    padding-top: 7rem;
+    font-size: 2.4rem;
   }
 
   .sub--heading {
-    padding: 0 1.5rem
+    padding: 0 1.5rem;
+    font-size: 1.8rem;
   }
 
   #serv-p {
