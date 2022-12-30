@@ -1,11 +1,3 @@
-/* body {
-  margin: 0;
-  background: #2d2c2c;
-  color: white;
-  font-family: "Lato", sans-serif;
-} */
-
-
 .hero-title {
   background-color: #2d2c2c;
   width: 100%;
@@ -23,7 +15,6 @@
 }
 
 .hero-container {
-  /* background-image: url("/assets/index/hero/model.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,39 +22,28 @@
   animation: image 15s infinite alternate-reverse;
 }
 
-  @keyframes image {  
-    0% {
-      background-image: url("/assets/home/hero-model.jpg");
-    }
-  
-    10% {
-      background-image: url("/assets/home/hero-model.jpg");
-    }
-  
-    40% {
-      background-image: url("/assets/home/nail-polish-bottles.jpg");
-    }
-  
-    70% {
-      background-image: url("/assets/home/hero-hair.jpg");
-  
-    }
-  
-    100% {
-      background-image: url("/assets/home/hero-group.jpg"); 
-    }
+@keyframes image {  
+  0% {
+    background-image: url("./assets/home/hero-model.jpg");
   }
 
-/* .hero-content {
-  display: flex;
-  flex-direction: column;
-  width: 95rem;
-} */
+  10% {
+    background-image: url("./assets/home/hero-model.jpg");
+  }
 
-/* .service-content {
-  max-width: 100rem;
-  margin: 0 auto;
-} */
+  40% {
+    background-image: url("./assets/home/hero-nail-polish-bottles.jpg");
+  }
+
+  70% {
+    background-image: url("./assets/home/hero-hair.jpg");
+
+  }
+
+  100% {
+    background-image: url("./assets/home/hero-group.jpg"); 
+  }
+}
 
 .heading {
   text-align: center;
@@ -98,10 +78,8 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* padding: 0 4rem; */
   margin: 0 auto;
 }
 
@@ -109,7 +87,6 @@
 .serv-img {
   max-width: 100%;
   max-height: fit-content;
-  /* max-width: 75%; */
 }
 
 .col-one,
@@ -146,7 +123,7 @@
 
 g {
   text-align: center;
- }
+}
 
 /* BOOTSTRAP */
 .selector-for-some-widget {
