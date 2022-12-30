@@ -124,25 +124,24 @@ header {
 
 }
 
-/* TODO: Need to check this size and below */
-
 @media only screen and (max-width: 480px) {
-  /* HERO */
-  .hero-container {
-    background-position: left;
+  .nail-bg {
     height: 35vh;
+  }
+
+  .header-logo {
+    height: 4rem;
   }
 }
 
 @media only screen and (max-width: 340px) {
   .nail-bg {
-    background-size: cover;
     height: 40vh;
     background-position: inherit;
   }
 
   .gallery p {
-    padding: 0 3rem 6rem 3rem;
+    padding: 0 2rem 6rem 2rem;
     font-size: 1.8rem;
   }
 

@@ -343,7 +343,7 @@ i {
   .col-two,
   .col-three {
     width: 26rem;
-    height: 40rem;
+    height: 38rem;
   }
 }
 
@@ -353,7 +353,7 @@ i {
   }
 
   .hero-title h1 {
-    padding: 13rem 3.5rem 4rem 3.5rem;    
+    padding: 13rem 3.2rem 4rem 3.2rem;    
   }
 }
 
@@ -365,7 +365,11 @@ i {
 
   .hero-title h1 {
     font-size: 3.6rem;
-    padding: 14rem 2rem 0rem 2rem;
+    padding: 14rem 2rem 4rem 2rem;
+}
+
+.heading{
+  font-size: 2.4rem;
 }
 
   /* SERVICES */
@@ -390,7 +394,11 @@ i {
 @media only screen and (max-width: 360px) {
   .hero-title h1 {
     font-size: 3rem;
-    padding: 13rem 2rem 0rem 2rem;
+    padding: 13rem 2rem 3rem 2rem;
+  }
+
+  .heading {
+    font-size: 2.4rem;
   }
 
   .copyright {
@@ -400,7 +408,7 @@ i {
 
 @media only screen and (max-width: 322px) {
   .hero-title h1 {
-    padding: 14rem 2rem 0rem 2rem;
+    padding: 14rem 1.5rem 0rem 1.5rem;
   }
   .hero-container {
     height: 38vh;
@@ -409,7 +417,7 @@ i {
 
   .heading {
     padding-top: 7rem;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   .sub--heading {
