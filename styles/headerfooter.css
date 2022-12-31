@@ -152,6 +152,11 @@ td {
   fill: #e30c52;
 }
 
+.footer-facebook:hover,
+.footer-facebook:active {
+  fill: #212529;
+}
+
 address a:link, 
 address a:visited {
   text-decoration: none;
@@ -161,6 +166,11 @@ address a:visited {
 address a:hover, 
 address a:active {
   color: #e30c52;
+}
+
+address #name:hover,
+address #name:active {
+  color: #212529
 }
 
 address a ion-icon {
